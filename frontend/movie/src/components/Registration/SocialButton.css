@@ -1,0 +1,12 @@
+.btn.social {
+  width: 160px;
+  height: 40px;
+  color: white;
+}
+
+@media (min-width: 250px) and (max-width: 667px) {
+  .btn.social {
+    margin: 10px;
+    margin-left: 50px;
+  }
+}

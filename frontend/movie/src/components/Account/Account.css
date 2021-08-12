@@ -1,0 +1,24 @@
+.btn.edit {
+  margin-top: 10px;
+  background-color: #6b4e71;
+  color: white;
+}
+
+.btn.save {
+  margin-top: 10px;
+  margin-right: 20px;
+  display: none;
+  background-color: #6b4e71;
+  color: white;
+}
+
+.btn.cancel {
+  margin-top: 10px;
+  display: none;
+  background-color: #ada7c9;
+  color: white;
+}
+
+.invalid-field.invalid input {
+  border-color: red;
+}

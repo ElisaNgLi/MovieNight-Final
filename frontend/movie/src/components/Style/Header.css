@@ -1,0 +1,12 @@
+nav {
+  background-color: #ada7c9;
+}
+
+a#head-link {
+  text-decoration: none;
+  color: white;
+}
+
+#logout {
+  color: white;
+}

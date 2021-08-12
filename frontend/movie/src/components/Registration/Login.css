@@ -1,0 +1,27 @@
+.card.login {
+  width: 35rem;
+  margin: 0 auto;
+  float: none;
+  border-style: none;
+}
+
+#link-pw {
+  text-decoration: none;
+}
+
+.invalid-field.invalid input {
+  border-color: red;
+}
+
+.btn.login {
+  background-color: #6b4e71;
+  color: white;
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+  .card.login {
+    width: 18rem;
+    margin: 0 auto;
+    float: none;
+  }
+}

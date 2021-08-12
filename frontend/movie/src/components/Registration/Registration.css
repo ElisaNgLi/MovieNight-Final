@@ -1,0 +1,41 @@
+.card.registration {
+  width: 40rem;
+  margin: 0 auto;
+  float: none;
+  border-style: none;
+}
+
+.advertisement {
+  background-color: #6b4e71;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.advertisement p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.advertisement h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.invalid-field.invalid input {
+  border-color: red;
+}
+
+.btn.sign {
+  background-color: #6b4e71;
+  color: white;
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+  .card.registration {
+    width: 18rem;
+    margin: 0 auto;
+    float: none;
+  }
+}
