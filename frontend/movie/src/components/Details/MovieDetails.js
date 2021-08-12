@@ -10,8 +10,8 @@ const MovieDetails = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    //if trying with local change the link back to https://night-movie.herokuapp.com/movies/${id}
-    fetch(`http://localhost:5001/movies/${id}`)
+    //if trying with local change the link back to
+    fetch(`https://movie-night-cjv.herokuapp.com/movies/${id}`)
       .then((res) => {
         return res.json();
       })

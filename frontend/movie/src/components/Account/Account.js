@@ -11,7 +11,11 @@ const Account = () => {
   const [validateEmail, setValidEmail] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5001/users/${localStorage.getItem("userInfo")}`)
+    fetch(
+      `https://movie-night-cjv.herokuapp.com/users/${localStorage.getItem(
+        "userInfo"
+      )}`
+    )
       .then((res) => {
         return res.json();
       })

@@ -9,7 +9,7 @@ const FeatureMovie = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5001/movies/feature?feature=true")
+    fetch("https://movie-night-cjv.herokuapp.com/movies/feature?feature=true")
       .then((res) => {
         return res.json();
       })

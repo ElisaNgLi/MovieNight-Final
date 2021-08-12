@@ -14,8 +14,8 @@ const HomePage = () => {
 
   useEffect(() => {
     const url = [
-      { url: "http://localhost:5001/tv" },
-      { url: "http://localhost:5001/movies" },
+      { url: "https://movie-night-cjv.herokuapp.com/tv" },
+      { url: "https://movie-night-cjv.herokuapp.com/movies" },
     ];
     const fetchStuff = async () => {
       const results = await Promise.all(url.map((type) => fetch(type.url)));

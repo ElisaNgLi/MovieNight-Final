@@ -29,7 +29,7 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch("http://localhost:5001/auth", {
+    fetch("https://movie-night-cjv.herokuapp.com/auth", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

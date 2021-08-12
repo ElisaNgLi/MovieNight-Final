@@ -9,8 +9,8 @@ const TvList = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    //if trying with local change the link back to http://localhost:8000/tv
-    fetch("http://localhost:5001/tv")
+    //if trying with local change the link back to http://localhost:5001/tv
+    fetch("https://movie-night-cjv.herokuapp.com/tv")
       .then((res) => {
         return res.json();
       })

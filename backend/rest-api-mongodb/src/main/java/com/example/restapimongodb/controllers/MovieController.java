@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.Collections;
 
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://night-movie.herokuapp.com/")
 @RestController
 public class MovieController {
 

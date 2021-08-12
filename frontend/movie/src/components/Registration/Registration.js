@@ -69,7 +69,7 @@ const Registration = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch("http://localhost:5001/users", {
+    fetch("https://movie-night-cjv.herokuapp.com/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
